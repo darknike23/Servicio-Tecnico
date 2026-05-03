@@ -1,0 +1,74 @@
+body {
+  margin:0;
+  font-family: 'Segoe UI';
+  background:#0f172a;
+  color:white;
+}
+
+header {
+  text-align:center;
+  padding:40px;
+  background:linear-gradient(135deg,#06b6d4,#22c55e);
+}
+
+nav {
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  background:#020617;
+  padding:10px;
+}
+
+nav a {
+  color:white;
+  text-decoration:none;
+}
+
+section {
+  padding:30px;
+}
+
+#catalogo {
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+}
+
+.card {
+  background:#1e293b;
+  padding:20px;
+  border-radius:12px;
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:scale(1.05);
+}
+
+#chatbox {
+  height:300px;
+  background:black;
+  overflow:auto;
+  padding:10px;
+  border-radius:10px;
+}
+
+input {
+  width:70%;
+  padding:10px;
+}
+
+button {
+  padding:10px;
+  background:#22c55e;
+  border:none;
+}
+
+.wsp {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  padding:15px;
+  border-radius:50%;
+}
